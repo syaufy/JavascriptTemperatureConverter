@@ -1,0 +1,71 @@
+*{
+	max-width: 100%;
+}
+body {
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #ff00cc,#333399);
+	background-size: 400% 400%;
+	animation: gradientBG 5s ease infinite;
+	/*overflow: hidden;*/
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+	background-color: white;
+	color: #222;
+	margin-top: 45px;
+	border-radius: 20px;
+	padding-top: 20px;
+	width: 70%;
+	height: 110vh;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	padding-bottom: 10px;
+}
+.header{
+	font-weight: 900;
+	padding-bottom: 40px;
+	font-size: 80px;
+}
+
+.form-group{
+	font-weight: 900;
+	margin-left: 20px;
+}
+
+.bagiankedua{
+
+}
+
+.btnstyle{
+	margin-left:-180px;
+	width: 40%;
+	margin-top: 10px;
+}
+
+.btnstyle2{
+	width: 40%;
+	margin-top: 10px;
+}
+h4{
+	font-weight: 900;
+	font-size: 20px;
+	margin-left: -400px;
+	margin-top: -30px;
+
+}
